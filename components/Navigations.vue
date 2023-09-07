@@ -15,7 +15,7 @@ const route = useRoute();
 const navigation = [
   { name: "Home", href: "/", current: route.name == "index" },
   { name: "Blog", href: "/blog", current: route.name.includes("blog") },
-  { name: "Projects", href: "/projects", current: route.name == "projects" },
+  { name: "Konakt", href: "/contact", current: route.name == "contact" },
 ];
 </script>
 
@@ -37,12 +37,10 @@ const navigation = [
         <div
           class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start"
         >
-          <div class="flex flex-shrink-0 items-center">
-            <img
-              class="h-8 w-auto"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-              alt="Your Company"
-            />
+          <div class="flex flex-shrink-0 text-lg items-center font-lobster">
+            
+            <Icon name="iconoir:code" class="text-[#e762dc]"></Icon>
+            <p class="text-[#07c0b6] italic font-lobster">Paula Piskorz</p>
           </div>
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">

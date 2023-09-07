@@ -1,19 +1,27 @@
 ---
-title: Hello, World!
-description: This is my very first blog post and I'm so excited to share it with you!
+title: Artificial intelligence as support for novice programmers
+description: The Role of Artificial Intelligence in Programming Learning
 date: 2023-05-23
 cover: field.png
 tags:
   - blog
+  - sztuczna inteligencja
+  - AI
+  - Junior developer
+  - Rozwój umiejętności programistycznych
 ---
 
-# Hello, World 👋🏻
+# Sztuczna inteligencja jako wsparcie dla początkujących programistów:mortar_board:
 
-This is a paragraph.
+**Wprowadzenie - Część 1: Rola sztucznej inteligencji w nauce programowania**
 
-This is another paragraph.
+![Earth from Space](/images/blog/heading_ai_for_junior.png)
 
-![Earth from Space](/images/blog/field.png)
+Gdy tylko rozpocząłem swoją przygodę z samodzielną nauką programowania, stanąłem przed pytaniem, czy sztuczna inteligencja może faktycznie pomóc juniorom w tej dziedzinie. Pytanie to pojawiło się w mojej głowie, gdy po raz pierwszy usłyszałem o dostępie do sztucznej inteligencji, a konkretnie ChatGPT od OpenAI. Chociaż jestem wielkim fanem innowacji technologicznych, miałem wątpliwości, czy to narzędzie jest naprawdę wartościowe.
+
+Początkowo, podobnie jak wiele innych osób, miałem obawy związane z nowością. Czy to tylko chwilowy zachwyt ogółu społeczności? Czy sztuczna inteligencja naprawdę może pomóc początkującym programistom? Skąd takie wątpliwości 😣
+
+
 
 ## This is a heading 2
 

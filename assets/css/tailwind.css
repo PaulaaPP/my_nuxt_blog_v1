@@ -1,6 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --dark-green: #1b313e;
+  --light-green: #156973;
+  --bright-green: #07c0b6;
+  --emerald-green: #10b981;
+
+  --dark-purple: #4e3461;
+  --light-purple: #9e5b9e;
+  --bright-purple: #e762dc;
+}
 
 body {
   @apply bg-gray-200;
@@ -8,6 +21,17 @@ body {
 
 @layer components {
   .navbar-gradient {
-    @apply bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%;
+    @apply bg-gradient-to-r from-[#156973] from-10% via-[#1b313e] via-30% to-[#4e3461] to-90%;
+  }
+
+  .text-gradient-home {
+    @apply bg-gradient-to-r from-[#9e5b9e] from-10% via-[#4c3460] via-30% to-emerald-500 to-90% text-transparent bg-clip-text;
+  }
+  .text-gradient-title {
+    @apply bg-gradient-to-r from-[#1b313e]  from-5% via-sky-500 via-30% to-emerald-500 to-90% text-transparent bg-clip-text italic font-bold text-5xl;
+  }
+
+  .icon-style {
+    @apply text-5xl mx-4 my-2 text-[#9e5b9e];
   }
 }

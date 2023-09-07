@@ -7,7 +7,7 @@ const { data } = await useAsyncData(`contnet-${path}`, () => {
 </script>
 
 <template>
-  <!-- this redner content post / on mardonw -->
+  <!-- this redner content post / on mardonw  this -->
   <ContentRenderer :value="data" class="prose my-10 mx-auto max-w-7xl" />
   <div class="my-8">
     <a
