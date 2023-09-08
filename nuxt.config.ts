@@ -1,8 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  generate: {
-    fallback: true,
-  },
   devtools: { enabled: true },
   modules: [
     "@nuxtjs/tailwindcss",
@@ -17,5 +14,8 @@ export default defineNuxtConfig({
       theme: "dracula",
       preload: ["ts", "js", "css", "java", "json", "bash", "vue"],
     },
+  },
+  generate: {
+    routes: ["/404.html"], // Przekieruj na stronę 404
   },
 });
