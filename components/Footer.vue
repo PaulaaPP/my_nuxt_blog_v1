@@ -8,7 +8,7 @@ const links = [
 
   {
     name: "LinkedIn",
-    href: "www.linkedin.com/in/paula-piskorz-a02139283",
+    href: "https://www.linkedin.com/in/paula-piskorz-a02139283/",
     icon: "entypo-social:linkedin-with-circle",
   },
 ];
@@ -16,9 +16,11 @@ const links = [
 <template>
   <footer class="navbar-gradient">
     <section
-      class="mx-auto max-w-7xl px-2 sm:px-4 lg:py-6 text-gray-300 flex flex-row"
+      class="mx-auto max-w-7xl px-2 sm:px-4 py-5 lg:py-6 text-gray-300 flex flex-row"
     >
-      <p class="flex-1">&copy; PaulaPiskorz 2023. All Rights Reserved</p>
+      <p class="flex-1 text-xs md:text-base">
+        &copy; PaulaPiskorz 2023. All Rights Reserved
+      </p>
       <a
         v-for="link in links"
         :key="link.name"
