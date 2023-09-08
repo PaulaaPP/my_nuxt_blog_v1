@@ -7,7 +7,7 @@ const { data: posts } = await useAsyncData("latest-post", () =>
 <template>
   <section class="flex flex-col">
     <h1 class="text-3xl md:text-5xl my-14 italic font-bold text-gradient-home">
-      Od Zera do Front-End Developer
+      Od Zera do Front-End Developera
     </h1>
 
     <div>
@@ -22,8 +22,8 @@ const { data: posts } = await useAsyncData("latest-post", () =>
         Jestem początkującym frontem developerem
       </p>
       <p class="text-lg py-2">
-        Jako samoukiem w programowaniu i mocno wierzę, że zaangażowanie, wysiłek
-        i determinacja pozwalają osiągnąć sukces w każdej dziedzinie.
+        Jako samouk programowania i mocno wierzę, że zaangażowanie, wysiłek i
+        determinacja pozwalają osiągnąć sukces w każdej dziedzinie.
       </p>
       <p class="text-lg py-2">
         Na moim blogu skupiam się głównie na technologiach webowych, ale również

@@ -38,7 +38,6 @@ const navigation = [
           class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start"
         >
           <div class="flex flex-shrink-0 text-lg items-center font-lobster">
-            
             <Icon name="iconoir:code" class="text-[#e762dc]"></Icon>
             <p class="text-[#07c0b6] italic font-lobster">Paula Piskorz</p>
           </div>
@@ -50,8 +49,8 @@ const navigation = [
                 :href="item.href"
                 :class="[
                   item.current
-                    ? 'bg-gray-900 text-white'
-                    : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    ? 'bg-[#156973] text-white'
+                    : 'text-gray-300 hover:bg-[#156973] hover:text-white',
                   'rounded-md px-3 py-2 text-sm font-medium',
                 ]"
                 :aria-current="item.current ? 'page' : undefined"
@@ -72,8 +71,8 @@ const navigation = [
           :href="item.href"
           :class="[
             item.current
-              ? 'bg-gray-900 text-white'
-              : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+              ? 'bg-[#156973] text-white'
+              : 'text-gray-300 hover:bg-[#156973] hover:text-white',
             'block rounded-md px-3 py-2 text-base font-medium',
           ]"
           :aria-current="item.current ? 'page' : undefined"

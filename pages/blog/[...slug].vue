@@ -8,9 +8,9 @@ const { data } = await useAsyncData(`contnet-${path}`, () => {
 
 <template>
   <!-- this redner content post / on mardonw  this -->
-  <ContentRenderer :value="data" class="prose my-10 mx-auto max-w-7xl" />
+  <ContentRenderer :value="data" class="prose my-10 mx-auto max-w-3xl" />
   <div class="my-8">
-    <a
+    <!-- <a
       v-for="tag in data.tags"
       :key="tag"
       :href="`/blog/tags/${tag}`"
@@ -18,6 +18,6 @@ const { data } = await useAsyncData(`contnet-${path}`, () => {
     >
       <Icon name="pajamas:label" size="1.5rem" class="text-gray-100 mr-2" />
       {{ tag }}
-    </a>
+    </a> -->
   </div>
 </template>
