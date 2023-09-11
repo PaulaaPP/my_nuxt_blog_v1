@@ -22,13 +22,6 @@ export default defineNuxtConfig({
   },
 
   generate: {
-    async routes() {
-      const { $content } = require("@nuxt/content");
-      const files = await $content("blog").only(["slug"]).fetch();
-
-      return files.map(file => ({
-        route: `/blog/${file.slug}`,
-      }));
-    },
+    routes: ["/blog/AI- jako-wsparcie-juniorów"],
   },
 });
