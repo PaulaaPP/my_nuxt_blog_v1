@@ -18,9 +18,9 @@ export default defineNuxtConfig({
     },
   },
 
-  // generate: {
-  //   fallback: true,
-  // },
+  generate: {
+    fallback: true,
+  },
 
   generate: {
     routes: ["/blog/AI-jako-wsparcie-juniorów"],
