@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  // target: "static",
-  // ssr: false,
+  target: "static",
+  ssr: false,
   devtools: { enabled: true },
   modules: [
     "@nuxtjs/tailwindcss",
@@ -17,9 +17,9 @@ export default defineNuxtConfig({
     },
   },
 
-  generate: {
-    fallback: true,
-  },
+  // generate: {
+  //   fallback: true,
+  // },
 
   generate: {
     routes: ["/blog/AI- jako-wsparcie-juniorów"],
