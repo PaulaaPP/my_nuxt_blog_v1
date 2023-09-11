@@ -17,7 +17,6 @@ export default defineNuxtConfig({
   },
 
   generate: {
-    routes: ["/404.html"], // Przekieruj na stronę 404
-    // ...
+    fallback: true,
   },
 });
