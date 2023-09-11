@@ -11,7 +11,6 @@ export default defineNuxtConfig({
   ],
 
   content: {
-    dir: "content",
     highlight: {
       theme: "dracula",
       preload: ["ts", "js", "css", "java", "json", "bash", "vue"],
@@ -20,5 +19,16 @@ export default defineNuxtConfig({
 
   generate: {
     fallback: true,
+  },
+
+  generate: {
+    async routes() {
+      const { $content } = require("@nuxt/content");
+      const files = await $content("blog").only(["slug"]).fetch();
+
+      return files.map(file => ({
+        route: `/blog/${file.slug}`,
+      }));
+    },
   },
 });
