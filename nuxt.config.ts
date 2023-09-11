@@ -15,5 +15,9 @@ export default defineNuxtConfig({
       preload: ["ts", "js", "css", "java", "json", "bash", "vue"],
     },
   },
-  
+
+  generate: {
+    routes: ["/404.html"], // Przekieruj na stronę 404
+    // ...
+  },
 });
