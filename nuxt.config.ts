@@ -22,6 +22,6 @@ export default defineNuxtConfig({
   // },
 
   generate: {
-    routes: ["/blog/ai- jako-wsparcie-juniorów"],
+    routes: ["/blog/ai-jako-wsparcie-juniorów"],
   },
 });
