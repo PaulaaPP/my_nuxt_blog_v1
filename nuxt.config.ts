@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   target: "static",
-  ssr: true,
+  ssr: false,
 
   devtools: { enabled: true },
   modules: [
