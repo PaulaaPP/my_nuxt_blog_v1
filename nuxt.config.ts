@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  target: "static", // Ustawienie target na 'static'
-  ssr: false, // Wyłączenie server-side rendering (SSR)
+  target: "static",
+  ssr: false,
   devtools: { enabled: true },
   modules: [
     "@nuxtjs/tailwindcss",
@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   ],
 
   content: {
-    // https://content.nuxtjs.org/api/configuration
+    dir: "content",
     highlight: {
       theme: "dracula",
       preload: ["ts", "js", "css", "java", "json", "bash", "vue"],
