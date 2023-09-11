@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   target: "static",
   ssr: false,
+
   devtools: { enabled: true },
   modules: [
     "@nuxtjs/tailwindcss",
@@ -22,6 +23,6 @@ export default defineNuxtConfig({
   // },
 
   generate: {
-    routes: ["/blog/ai-jako-wsparcie-juniorów"],
+    routes: ["/blog/AI-jako-wsparcie-juniorów"],
   },
 });

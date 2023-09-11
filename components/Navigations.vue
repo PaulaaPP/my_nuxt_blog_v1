@@ -38,8 +38,10 @@ const navigation = [
           class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start"
         >
           <div class="flex flex-shrink-0 text-lg items-center font-lobster">
-            <Icon name="iconoir:code" class="text-[#e762dc]"></Icon>
-            <p class="text-[#07c0b6] italic font-lobster">Paula Piskorz</p>
+            <nuxt-link to="/" class="text-[#07c0b6] italic font-lobster">
+              <Icon name="iconoir:code" class="text-[#e762dc]"></Icon>Paula
+              Piskorz</nuxt-link
+            >
           </div>
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
